@@ -27,6 +27,11 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter an integer: ");
+    int integer = in.nextInt();
+    for(int i=0; i<integer; i++){
+      System.out.print("Enter an integer: ");
+      int integer = in.nextInt();
+    }
   }
 }
