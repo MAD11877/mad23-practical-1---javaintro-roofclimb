@@ -30,7 +30,7 @@ public class Question5
     ArrayList<Integer> data = new ArrayList<>();
     
     Scanner in = new Scanner(System.in);
-    System.out.print("How many numbers? ");
+    //System.out.print("How many numbers? ");
     int integer = in.nextInt();
     int list[]=new int[integer];
     int max = 0;
@@ -38,7 +38,7 @@ public class Question5
     int mode=0;
     for(int i=0; i<integer; i++)
     {
-      System.out.print("Enter an integer: ");
+      //System.out.print("Enter an integer: ");
       int n = in.nextInt();
       data.add(n);
     }
@@ -53,16 +53,12 @@ public class Question5
                 {
                     mode=data.get(i);
                 }
-                else if(count==max)
-                {
-                    System.out.print("Mode1: "+data.get(i));
-                }
             }
         }
         count=1;
         
       //System.out.print(data.get(i));
     }
-    System.out.print("Mode: "+mode);
+    System.out.print(mode);
   }
 }
