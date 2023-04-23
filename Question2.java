@@ -10,13 +10,14 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
     
-    System.out.print("Height: ");
+    //System.out.print("Height: ");
 
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
-    System.out.print("Weight: ");
+    //System.out.print("Weight: ");
     double weight = in.nextDouble();
     double bmi=weight/(height*height);
-    System.out.println("BMI: "+bmi);
+    //System.out.println("BMI: "+bmi);
+    System.out.println(bmi);
     }
 }
